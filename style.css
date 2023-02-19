@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow@wght:900');
+
+:root{
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow',sans-serif;
+    box-sizing: border-box;
+}
+.head{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    padding: 2rem;
+    box-shadow:-2px 20px 24px -11px rgb(0 0 0 / 8%) ;
+
+}
+.left{
+    display: flex;
+}
+.left h1{
+    font-size: 1.2rem;
+    align-self:center;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+.left img{
+    width: 50px;
+}
+.profile{
+   margin-left: auto;
+}
+.profile img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.all-solutions{
+    padding: 5rem;
+display: grid;
+place-items: center;
+}
+.all-solutions h1{
+    font-size: 2.5rem;
+    font-weight: 1000;
+    letter-spacing: 2px;
+}
+.solutions{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    padding:0rem 8rem;
+    gap: 5rem;
+}
+.solution{
+    border-radius: 10px;
+    border: 1px solid #dbe5e6 ;
+}
+.project-preview img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.project-info{
+    padding: 2rem;
+}
+.project-info h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.tech-stack{
+    display: flex;
+    gap: 1rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.html{
+    color: #6abecd;
+}
+.css{
+    color: #3e54a3;
+}
+.project-discription p{
+    font-size: 1.25rem;
+}
+.project-links{
+    display: flex;
+margin-top: 5rem;
+gap: 2rem;
+}
+.project-links a{
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+}
+.project-links a:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+font-style: italic;
+}
+
+.foot{
+height: 10vh;
+padding: 3rem;
+display: grid;
+place-items: center;
+background: black;
+color: white;
+font-style: italic;
+text-align: center;
+}
+@media (width< 1100px){
+    .solutions{
+        padding: 0rem 4rem;
+    }
+}
+
+
+@media (width < 700px){
+    .head{
+        padding: 0.7rem;
+    }
+    .head h1{
+        font-size: 1rem;
+    }
+    .all-solutions{
+        padding: 2rem;
+    }
+    .all-solutions h1{
+        font-size: 1.25rem;
+    }
+    .solutions{
+        grid-template-columns: 1fr;
+        padding: 0rem 2rem;
+    }
+    
+}
