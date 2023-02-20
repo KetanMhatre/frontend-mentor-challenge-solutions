@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow@wght:900');
+@import url('https://fonts.googleapis.com/css2?family=Barlow');
 
 :root{
 
@@ -36,6 +36,31 @@
 .profile img{
     width: 50px;
     border-radius: 50%;
+}
+.nav-bar{
+overflow: hidden;
+height: 0;
+width: 200px;
+margin-left: auto;
+
+background: rgba(0,0,0,.1);
+border-radius: 0px 0px 10px 10px ;
+}
+.nav-bar ul a{  
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    color:black;
+    font-weight: 100;
+    display: flex;
+    flex-direction: row;
+    text-decoration:none;
+}
+.nav-bar ul a:hover{
+    font-weight: 900;
+}
+.show-links{
+    height: 12rem;
+    transition: all 0.3s linear;
 }
 
 .all-solutions{
