@@ -21,6 +21,9 @@
 .left{
     display: flex;
 }
+.h1-span{
+    text-decoration: underline wavy rgba(247,133,133,.658) 1.5px;
+}
 .left h1{
     font-size: 1.2rem;
     align-self:center;
@@ -59,7 +62,7 @@ border-radius: 0px 0px 10px 10px ;
     font-weight: 900;
 }
 .show-links{
-    height: 12rem;
+    height: 6rem;
     transition: all 0.3s linear;
 }
 
